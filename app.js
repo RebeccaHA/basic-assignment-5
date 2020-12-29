@@ -7,7 +7,9 @@ const app = Vue.createApp({
   },
   methods: {
     addTask() {
-      this.tasks.push(input);
+      this.tasks.push(this.input);
     }
   }
 });
+
+app.mount("#assignment");
